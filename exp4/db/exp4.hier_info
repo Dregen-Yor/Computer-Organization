@@ -1,0 +1,41 @@
+|exp4
+o1 <= simple:inst.O0
+lm => simple:inst.LM
+dm => simple:inst.DM
+a0 => simple:inst.A0
+a1 => simple:inst.A1
+a2 => simple:inst.A2
+a3 => simple:inst.A3
+rm => simple:inst.RM
+o2 <= simple:inst.O1
+o3 <= simple:inst.O2
+o4 <= simple:inst.O3
+
+
+|exp4|simple:inst
+O0 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A0 => D0.IN0
+A0 => inst8.IN1
+DM => D0.IN1
+DM => D1.IN1
+DM => D2.IN1
+DM => D3.IN1
+A1 => R0.IN0
+A1 => D1.IN0
+A1 => inst9.IN1
+RM => R0.IN1
+RM => R1.IN1
+RM => R2.IN1
+O1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A2 => R1.IN0
+A2 => D2.IN0
+A2 => inst10.IN1
+LM => inst8.IN0
+LM => inst9.IN0
+LM => inst10.IN0
+O2 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+A3 => R2.IN0
+A3 => D3.IN0
+O3 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+

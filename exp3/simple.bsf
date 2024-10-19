@@ -1,0 +1,134 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 128 240)
+	(text "simple" (rect 5 0 49 16)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 206 28 220)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "K" (rect 0 0 10 16)(font "Arial" (font_size 8)))
+		(text "K" (rect 21 27 31 43)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "B3" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "B3" (rect 21 43 39 59)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "B2" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "B2" (rect 21 59 39 75)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "B1" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "B1" (rect 21 75 39 91)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "B0" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "B0" (rect 21 91 39 107)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "A3" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "A3" (rect 21 107 39 123)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "A2" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "A2" (rect 21 123 39 139)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "A1" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "A1" (rect 21 139 39 155)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "A0" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "A0" (rect 21 155 39 171)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "C0" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "C0" (rect 21 171 39 187)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176))
+	)
+	(port
+		(pt 112 32)
+		(output)
+		(text "SUM3" (rect 0 0 42 16)(font "Arial" (font_size 8)))
+		(text "SUM3" (rect 49 27 91 43)(font "Arial" (font_size 8)))
+		(line (pt 112 32)(pt 96 32))
+	)
+	(port
+		(pt 112 48)
+		(output)
+		(text "SUM4" (rect 0 0 42 16)(font "Arial" (font_size 8)))
+		(text "SUM4" (rect 49 43 91 59)(font "Arial" (font_size 8)))
+		(line (pt 112 48)(pt 96 48))
+	)
+	(port
+		(pt 112 64)
+		(output)
+		(text "C4" (rect 0 0 18 16)(font "Arial" (font_size 8)))
+		(text "C4" (rect 73 59 91 75)(font "Arial" (font_size 8)))
+		(line (pt 112 64)(pt 96 64))
+	)
+	(port
+		(pt 112 80)
+		(output)
+		(text "SUM1" (rect 0 0 42 16)(font "Arial" (font_size 8)))
+		(text "SUM1" (rect 49 75 91 91)(font "Arial" (font_size 8)))
+		(line (pt 112 80)(pt 96 80))
+	)
+	(port
+		(pt 112 96)
+		(output)
+		(text "SUM2" (rect 0 0 42 16)(font "Arial" (font_size 8)))
+		(text "SUM2" (rect 49 91 91 107)(font "Arial" (font_size 8)))
+		(line (pt 112 96)(pt 96 96))
+	)
+	(drawing
+		(rectangle (rect 16 16 96 208))
+	)
+)
