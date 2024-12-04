@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="exp14">
+		<CBX_INST_ENTRY INSTANCE_NAME="|exp14|8RromR24:inst|ROM1:inst4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_0rr3.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
